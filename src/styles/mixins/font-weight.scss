@@ -1,0 +1,9 @@
+$weights: (
+  "normal": normal,
+  "semibold": 600,
+  "bold": 700,
+);
+
+@mixin font-weight($weight) {
+  font-weight: map-get($weights, $weight);
+}

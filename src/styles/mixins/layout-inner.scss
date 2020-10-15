@@ -1,0 +1,9 @@
+@import "styles/vars.scss";
+@import "styles/mixins/respond-to.scss";
+
+@mixin layoutInner() {
+  flex: 1 0 auto;
+  width: 100%;
+  min-width: 320px;
+  max-width: $desktop-max-width;
+}
