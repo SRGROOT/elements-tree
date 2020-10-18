@@ -1,9 +1,0 @@
-$families: (
-  "gla": "GUERRILLA",
-  "standart": "Roboto",
-);
-
-//TODO если Roboto будет использоваться мало, поставить основным GUERRILLA
-@mixin font-family($font-family) {
-  font-family: map-get($families, $font-family) !important;
-}

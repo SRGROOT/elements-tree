@@ -1,0 +1,44 @@
+.atribute {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 53px;
+  padding: 8px;
+
+  .atribute__input-wrapper {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #ffffff;
+
+    p {
+      margin-right: 16px;
+    }
+  }
+
+  input {
+    margin-right: 24px;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    background-color: transparent;
+
+    color: #fff;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.15);
+    }
+  }
+
+  .atribute__btn {
+    margin-right: 16px;
+  }
+
+  .atribute__btn_offset {
+    margin-left: 35px;
+  }
+}

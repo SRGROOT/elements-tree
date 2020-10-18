@@ -1,0 +1,57 @@
+@import "styles/vars.scss";
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  .tree__status {
+    margin: auto;
+    color: #ffffff;
+  }
+
+  .tree__default-element-control {
+    margin: auto;
+  }
+
+  .tree__header {
+    padding: 16px;
+    border-bottom: 1px solid rgba(192, 165, 165, 0.15);
+
+    &-title {
+      color: #ffffff;
+    }
+  }
+
+  .tree__content {
+    overflow-y: auto;
+    max-height: 448px;
+
+    &-element {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      cursor: pointer;
+      padding: 8px 16px;
+
+      p {
+        color: #ffffff;
+      }
+
+      &:hover {
+        background-color: $color-light-blue;
+      }
+    }
+
+    .tree__content-back-btn {
+      display: flex;
+      align-items: center;
+
+      padding: 8px;
+
+      color: #ffffff;
+    }
+  }
+}

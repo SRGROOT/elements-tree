@@ -1,0 +1,19 @@
+.button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    width: 19px;
+    height: 19px;
+
+    object-fit: cover;
+
+    transform: scale(1);
+    transition: linear 0.1s transform;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

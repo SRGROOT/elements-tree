@@ -1,0 +1,21 @@
+.new-element {
+  display: flex;
+  align-items: center;
+
+  height: 53px;
+  padding: 8px;
+
+  input {
+    margin-right: 24px;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    background-color: transparent;
+
+    color: #fff;
+  }
+
+  .new-element__btn {
+    margin-right: 16px;
+  }
+}

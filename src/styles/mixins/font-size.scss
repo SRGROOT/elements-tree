@@ -1,4 +1,0 @@
-@mixin font-size ($font-size, $line-height: null, $units: px) {
-  font-size: $font-size + $units;
-  line-height: $line-height + $units;
-}
